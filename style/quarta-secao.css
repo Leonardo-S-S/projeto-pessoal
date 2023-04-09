@@ -1,6 +1,37 @@
-.quarta-secao{
-
+.quarta-secao__card{
+    display: flex;
+    justify-content: space-around;
+}   
+.quarta-secao__tema{
+    margin-top: 5em;
 }
 .quarta-secao__card{
+    display: flex;
+
+}
+.quarta-secao__cards{
+    width: 30vw;
+    max-width: 440px;
+    background-color: var(--cor2);
+    border-radius: 20px;
+    height: 670px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.338);
+}
+.quarta-secao__card--img{
+    width: 100%;
+    border-radius: 20px 20px 0 0 ;
+    height: 30%;
+}
+.quarta-secao__card--tema{
+    font-size: 2rem;
+    margin: 15px 15px 0 15px;
+    font-family: "calibri", sans-serif;
     
+}
+.quarta-secao__card--texto{
+    font-size: 1.5rem;
+    color: var(--cor7);
+    text-align: justify;
+    margin: 10px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
