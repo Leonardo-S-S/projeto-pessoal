@@ -1,0 +1,22 @@
+.card-principal{
+    width: 40vw;
+    margin: 3rem;
+    background-color: var(--cor2);
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.516);
+}
+.card-principal__titulo{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+    font-family: "Varela Round";
+    color: rgb(39, 39, 39);
+}
+.card-principal__texto{
+    text-align: justify;
+    font-size: 1.5rem;
+    padding: 0 2rem 2rem 2rem;
+    color: var(--cor7);
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

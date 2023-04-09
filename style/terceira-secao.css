@@ -1,0 +1,30 @@
+.terceira-secao{
+    background-image: url(../img/equipe.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.271);
+    position: relative;
+}
+.terceira-secao__card{
+    background-color: rgba(255, 255, 255, 0.583) ;
+    width: 400px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50vh;
+    right: 10%;
+    padding: 30px 20px;   
+}
+.terceira-secao__titulo{
+    text-align: center;
+    font-family: "calibri";
+    font-size: 2rem;
+    color: var(--cor1);
+}
+.terceira-secao__texto{
+    text-align: justify;
+    font-size: 1.5rem;
+    color: rgb(82, 82, 82);
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
