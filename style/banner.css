@@ -1,0 +1,23 @@
+.banner{
+    background-color: var(--cor4);
+    height: 60vh;
+    display: flex;
+}
+
+.banner__input{
+    margin: 30px;
+    width: 60vw;
+    height: 5vh;
+    background-color: transparent;
+    border-radius: 10px;
+    justify-content: center;
+    border: 1px solid var(--cor1);
+}
+.banner__input::placeholder{
+    color: var(--cor1);
+    font-size: 1.5rem;
+    text-align: center;
+    align-self: center;
+    
+}
+}
