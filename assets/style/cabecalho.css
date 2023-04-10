@@ -24,7 +24,7 @@
 .cabecalho__lista--link{
     text-decoration: none;
     color: var(--cor2);
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.2rem;
     text-transform: uppercase;
 }
@@ -42,11 +42,8 @@
 .cabecalho-direito__lista--item{
     margin-right: 30px;
 }
-.cabecalho-direito__lista--img1{
-    height: 40px;
-}
-.cabecalho-direito__lista--img2{
-    height: 32px;
+.cabecalho-direito__lista--img{
+    height: 45px;
 }
 
 /* ABAIXO SÃO CONFIGURAÇÕES DO HOVER*/

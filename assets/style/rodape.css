@@ -1,7 +1,8 @@
 .rodape{
     background-color: var(--cor7);
-    height: 10em;
+    height: ;
     margin-top: 10em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .rodape__container{
     display: flex;
@@ -28,5 +29,52 @@
     text-decoration: none;
     color: var(--cor2);
     font-size: 1.5em;
-    font-weight: 700;
+    font-weight: 100;
+}
+
+/* CONFIGURAÇÕES DE LOCALIZAÇÃO E TELEFONE*/
+
+.rodape-localização{
+    margin-left: 30px;
+}
+.rodape-localização__lista{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rodape-localização__lista--item{
+    text-decoration: none;
+    color: var(--cor2);
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.rodape-localização__img{
+    height: 1em;
+}
+
+/* CONFIGURAÇÕES DE REDES SOCIAIS */
+
+.rodape__social{
+
+}
+.rodape__social--lista{
+    display: flex;
+    gap: 40px;    
+    justify-content: end;
+    padding: 0 40px 20px 0;
+}
+.rodape__social--lista-item{
+    list-style: none;
+}
+.rodape__social--lista-link{
+    text-decoration: none;
+    color: var(--cor2);
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.rodape__social--lista-img{
+    height: 1em;
 }
