@@ -1,5 +1,5 @@
 .rodape{
-    background-color: var(--cor4);
+    background-color: var(--cor7);
     height: 10em;
     margin-top: 10em;
 }
@@ -10,7 +10,7 @@
 .rodape__nome{
     padding-left: 1em;
     padding-top: 1em;
-    color: var(--cor3);
+    color: var(--cor8);
     font-size: 1.5em;
     font-weight: 700;
 }
